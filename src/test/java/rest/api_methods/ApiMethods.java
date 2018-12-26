@@ -1,10 +1,6 @@
 package rest.api_methods;
-
-
-
 import org.junit.Test;
 import rest.TestConfiguration;
-
 import static io.restassured.RestAssured.*;
 import static org.apache.http.HttpStatus.SC_NO_CONTENT;
 

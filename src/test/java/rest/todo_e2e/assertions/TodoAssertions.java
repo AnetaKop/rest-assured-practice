@@ -1,8 +1,5 @@
-
 package rest.todo_e2e.assertions;
-
 import java.util.Map;
-
 import static rest.todo_e2e.clients.TodoClients.*;
 
 public class TodoAssertions {

@@ -1,9 +1,7 @@
 package rest.todo_e2e.clients;
 import io.restassured.http.ContentType;
 import rest.todo_actions.model.Todo;
-
 import static io.restassured.RestAssured.*;
-
 import java.util.ArrayList;
 import java.util.Map;
 

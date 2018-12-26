@@ -1,10 +1,8 @@
 package rest.todo_actions;
-
 import io.restassured.http.ContentType;
 import org.junit.Test;
 import rest.TestConfiguration;
 import rest.todo_actions.model.Todo;
-
 import static io.restassured.RestAssured.given;
 import static org.apache.http.HttpStatus.SC_OK;
 

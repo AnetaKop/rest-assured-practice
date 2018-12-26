@@ -1,11 +1,8 @@
 package rest.todo_actions;
-
 import static io.restassured.RestAssured.*;
 import static org.apache.http.HttpStatus.SC_OK;
-
 import org.junit.Test;
 import rest.TestConfiguration;
-
 import java.util.Map;
 
 public class DeleteTodo extends TestConfiguration {

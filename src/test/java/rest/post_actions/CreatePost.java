@@ -1,14 +1,11 @@
 package rest.post_actions;
-
 import io.restassured.http.ContentType;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import rest.TestConfiguration;
 import rest.post_actions.model.Post;
-
 import java.util.Map;
-
 import static io.restassured.RestAssured.given;
 import static junit.framework.TestCase.assertEquals;
 import static org.apache.http.HttpStatus.SC_CREATED;

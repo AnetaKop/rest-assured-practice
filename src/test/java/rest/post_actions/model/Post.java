@@ -1,6 +1,5 @@
 package rest.post_actions.model;
 
-
 public class Post {
 
     private int id;

@@ -1,11 +1,9 @@
 package rest.todo_e2e;
-
 import org.junit.AfterClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import rest.TestConfiguration;
-
 import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 import static rest.todo_e2e.assertions.TodoAssertions.*;

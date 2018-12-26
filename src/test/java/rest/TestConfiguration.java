@@ -1,5 +1,4 @@
 package rest;
-
 import io.restassured.RestAssured;
 import org.junit.Before;
 import org.slf4j.Logger;

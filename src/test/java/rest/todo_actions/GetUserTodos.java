@@ -1,10 +1,7 @@
 package rest.todo_actions;
-
 import org.junit.Test;
 import rest.TestConfiguration;
-
 import java.util.ArrayList;
-
 import static io.restassured.RestAssured.given;
 import static junit.framework.TestCase.assertTrue;
 import static org.apache.http.HttpStatus.SC_OK;
