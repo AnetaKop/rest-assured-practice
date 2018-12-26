@@ -49,11 +49,13 @@ public class TodoClients {
                 .extract().path("");
     }
 
-    public static void deleteTodo(){
+    public static Map deleteTodo(){
+        return
         when()
                 .delete("todos/1")
         .then()
                 .extract().path("");
+
     }
 
 }

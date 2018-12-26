@@ -28,7 +28,9 @@ public class TodoE2eTest extends TestConfiguration {
     public static void cleanUp(){
 
         deleteTodo();
-        //assertFalse(userTodoExists(TITLE, COMPLETED_STATUS, USER_ID));
+
+        assert todoHasBeenDeleted();
+
     }
 
     @Test

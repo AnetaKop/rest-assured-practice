@@ -1,5 +1,7 @@
 package rest.todo_e2e.assertions;
+
 import java.util.Map;
+
 import static rest.todo_e2e.clients.TodoClients.*;
 
 public class TodoAssertions {
@@ -38,6 +40,13 @@ public class TodoAssertions {
         return responseUpdatedTitle.equals(updatedTitle);
 
 
+    }
+
+    public static boolean todoHasBeenDeleted() {
+
+        Map response = deleteTodo();
+
+        return response.isEmpty();
     }
 
 }
