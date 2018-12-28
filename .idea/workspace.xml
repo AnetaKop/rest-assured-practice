@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d2d12f8-6a2c-450e-8296-2c29acf76c81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/rest/todo_e2e/TodoE2eTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/rest/todo_e2e/TodoE2eTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/CreateTodo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="51">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="731">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="901">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/TestConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="221">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/model/TodoE2e.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
+            <state>
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -182,9 +181,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="56" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="966" />
     <option name="width" value="790" />
     <option name="height" value="980" />
   </component>
@@ -194,6 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,36 +234,7 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="todo_actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest-assured-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-assured-practice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="todo_e2e" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest-assured-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-assured-practice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="todo_e2e" type="462c0819:PsiDirectoryNode" />
-              <item name="assertions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest-assured-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-assured-practice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="todo_e2e" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rest-assured-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -279,12 +250,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545834661575" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546024365923" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -302,14 +271,6 @@
   </component>
   <component name="RunManager" selected="JUnit.TodoE2eTest">
     <configuration name="All in org,vistula.anekop.rest-assured-practice.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="org,vistula.anekop.rest-assured-practice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in org,vistula.anekop.rest-assured-practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org,vistula.anekop.rest-assured-practice.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -347,6 +308,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="rest in org,vistula.anekop.rest-assured-practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org,vistula.anekop.rest-assured-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="rest.todo_e2e in org,vistula.anekop.rest-assured-practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org,vistula.anekop.rest-assured-practice.test" />
       <extension name="coverage">
@@ -364,10 +339,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TodoE2eTest" />
+        <item itemvalue="JUnit.rest in org,vistula.anekop.rest-assured-practice.test" />
         <item itemvalue="JUnit.DeleteTodo.shouldDeleteATodo" />
         <item itemvalue="JUnit.All in org,vistula.anekop.rest-assured-practice.test (1)" />
         <item itemvalue="JUnit.rest.todo_e2e in org,vistula.anekop.rest-assured-practice.test" />
-        <item itemvalue="JUnit.All in org,vistula.anekop.rest-assured-practice.test" />
       </list>
     </recent_temporary>
   </component>
@@ -385,18 +360,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetUserTodos - 2018.12.26 at 10h 37m 28s.xml">
-      <configuration name="GetUserTodos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModifyTodo - 2018.12.26 at 10h 37m 39s.xml">
-      <configuration name="ModifyTodo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UpdateTodo - 2018.12.26 at 10h 37m 48s.xml">
-      <configuration name="UpdateTodo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UpdateTodo - 2018.12.26 at 10h 38m 10s.xml">
-      <configuration name="UpdateTodo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_org,vistula_anekop_rest-assured-practice_test - 2018.12.26 at 10h 38m 33s.xml">
       <configuration name="All in org,vistula.anekop.rest-assured-practice.test" configurationId="JUnit" />
     </history-entry>
@@ -415,12 +378,23 @@
     <history-entry file="TodoE2eTest - 2018.12.26 at 13h 18m 29s.xml">
       <configuration name="TodoE2eTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TodoE2eTest - 2018.12.26 at 15h 31m 14s.xml">
+      <configuration name="TodoE2eTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rest_in_org,vistula_anekop_rest-assured-practice_test - 2018.12.26 at 15h 38m 50s.xml">
+      <configuration name="rest in org,vistula.anekop.rest-assured-practice.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoE2eTest - 2018.12.28 at 20h 07m 42s.xml">
+      <configuration name="TodoE2eTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoE2eTest - 2018.12.28 at 20h 08m 32s.xml">
+      <configuration name="TodoE2eTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="773" y="0" width="632" height="784" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.54545456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,13 +403,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14730878" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16147308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.04249292" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.9539877" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3228228" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -449,6 +423,36 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20671141" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.86827195" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.9575071" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3228228" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -532,6 +536,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/CreateTodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/GetUserTodos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -562,27 +576,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/TestConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="731">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/model/TodoE2e.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="901">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/CreateTodo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/TestConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -599,30 +616,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/model/TodoE2e.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
