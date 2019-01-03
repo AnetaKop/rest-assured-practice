@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class TodoClients {
+
     private static final int USER_ID = 1;
 
     public static ArrayList getUserTodos(){
@@ -34,7 +35,7 @@ public class TodoClients {
                 .contentType(ContentType.JSON)
                 .body(new Todo(id, title, completedStatus, userId))
         .when()
-                .put("todos/"+ USER_ID)
+                .put("/todos/"+ USER_ID)
         .then()
                 .extract().path("");
     }
@@ -53,7 +54,7 @@ public class TodoClients {
     public static Map deleteTodo(){
         return
         when()
-                .delete("todos/" + USER_ID)
+                .delete("/todos/" + USER_ID)
         .then()
                 .extract().path("");
 
