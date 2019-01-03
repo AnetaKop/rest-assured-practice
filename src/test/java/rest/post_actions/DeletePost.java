@@ -13,7 +13,7 @@ public class DeletePost extends TestConfiguration {
 
         Map response =
                 when()
-                        .delete("posts/1")
+                        .delete("/posts/1")
                         .then()
                         .statusCode(200)
                         .extract().path("");

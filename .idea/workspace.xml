@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5d2d12f8-6a2c-450e-8296-2c29acf76c81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/rest/todo_e2e/TodoE2eTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/rest/todo_e2e/TodoE2eTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest/post_actions/DeletePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/post_actions/DeletePost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest/todo_actions/DeleteTodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/todo_actions/DeleteTodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest/todo_actions/UpdateTodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/todo_actions/UpdateTodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/CreateTodo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="18">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -38,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/DeleteTodo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/GetUserTodos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/ModifyTodo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/UpdateTodo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="145">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="272">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="933">
+              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="412">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/TestConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,10 +134,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/model/TodoE2e.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rest/api_methods/ApiMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,30 +166,30 @@
         <option value="$PROJECT_DIR$/src/test/java/rest/ApiMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/post_actions/Post.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/todo_actions/model/Todo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rest/todo_e2e/model/TodoE2e.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE23Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/api_methods/ApiMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/post_actions/model/Post.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/post_actions/CreatePost.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rest/post_actions/DeletePost.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/post_actions/GetPosts.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/post_actions/ModifyPost.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/post_actions/UpdatePost.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/todo_actions/CreateTodo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rest/todo_actions/DeleteTodo.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/todo_actions/GetUserTodos.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/todo_actions/ModifyTodo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rest/todo_actions/UpdateTodo.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/TestConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java" />
         <option value="$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest/todo_e2e/model/TodoE2e.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest/post_actions/DeletePost.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest/todo_actions/DeleteTodo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest/todo_actions/UpdateTodo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="966" />
-    <option name="width" value="790" />
+    <option name="x" value="965" />
+    <option name="width" value="957" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -193,7 +199,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,6 +239,33 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="api_methods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-assured-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-assured-practice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="post_actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-assured-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-assured-practice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="todo_actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-assured-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-assured-practice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="todo_e2e" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,16 +276,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="todo_e2e" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="assertions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-assured-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-assured-practice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="todo_e2e" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546024365923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546503351563" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -308,6 +351,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpdateTodo.shouldUpdateATodo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org,vistula.anekop.rest-assured-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.todo_actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest.todo_actions" />
+      <option name="MAIN_CLASS_NAME" value="rest.todo_actions.UpdateTodo" />
+      <option name="METHOD_NAME" value="shouldUpdateATodo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="rest in org,vistula.anekop.rest-assured-practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org,vistula.anekop.rest-assured-practice.test" />
       <extension name="coverage">
@@ -322,27 +381,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rest.todo_e2e in org,vistula.anekop.rest-assured-practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="org,vistula.anekop.rest-assured-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.todo_e2e.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest.todo_e2e" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TodoE2eTest" />
+        <item itemvalue="JUnit.UpdateTodo.shouldUpdateATodo" />
         <item itemvalue="JUnit.rest in org,vistula.anekop.rest-assured-practice.test" />
         <item itemvalue="JUnit.DeleteTodo.shouldDeleteATodo" />
         <item itemvalue="JUnit.All in org,vistula.anekop.rest-assured-practice.test (1)" />
-        <item itemvalue="JUnit.rest.todo_e2e in org,vistula.anekop.rest-assured-practice.test" />
       </list>
     </recent_temporary>
   </component>
@@ -360,21 +405,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_org,vistula_anekop_rest-assured-practice_test - 2018.12.26 at 10h 38m 33s.xml">
-      <configuration name="All in org,vistula.anekop.rest-assured-practice.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="rest_todo_e2e_in_org,vistula_anekop_rest-assured-practice_test - 2018.12.26 at 10h 51m 25s.xml">
-      <configuration name="rest.todo_e2e in org,vistula.anekop.rest-assured-practice.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_org,vistula_anekop_rest-assured-practice_test_(1) - 2018.12.26 at 11h 04m 48s.xml">
-      <configuration name="All in org,vistula.anekop.rest-assured-practice.test (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeleteTodo_shouldDeleteATodo - 2018.12.26 at 13h 14m 48s.xml">
-      <configuration name="DeleteTodo.shouldDeleteATodo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeleteTodo_shouldDeleteATodo - 2018.12.26 at 13h 16m 56s.xml">
-      <configuration name="DeleteTodo.shouldDeleteATodo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TodoE2eTest - 2018.12.26 at 13h 18m 29s.xml">
       <configuration name="TodoE2eTest" configurationId="JUnit" />
     </history-entry>
@@ -390,11 +420,27 @@
     <history-entry file="TodoE2eTest - 2018.12.28 at 20h 08m 32s.xml">
       <configuration name="TodoE2eTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UpdateTodo_shouldUpdateATodo - 2019.01.03 at 09h 00m 43s.xml">
+      <configuration name="UpdateTodo.shouldUpdateATodo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateTodo_shouldUpdateATodo - 2019.01.03 at 09h 01m 52s.xml">
+      <configuration name="UpdateTodo.shouldUpdateATodo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateTodo_shouldUpdateATodo - 2019.01.03 at 09h 03m 06s.xml">
+      <configuration name="UpdateTodo.shouldUpdateATodo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateTodo_shouldUpdateATodo - 2019.01.03 at 09h 10m 45s.xml">
+      <configuration name="UpdateTodo.shouldUpdateATodo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateTodo_shouldUpdateATodo - 2019.01.03 at 09h 11m 25s.xml">
+      <configuration name="UpdateTodo.shouldUpdateATodo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="773" y="0" width="632" height="784" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.54545456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,13 +449,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16147308" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52549577" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.9539877" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.88101983" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3228228" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -465,67 +511,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/api_methods/ApiMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/model/Post.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/CreatePost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/DeletePost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/GetPosts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/ModifyPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/UpdatePost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,9 +525,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/CreateTodo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/model/TodoE2e.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="340">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/CreatePost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/DeletePost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/GetPosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/ModifyPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/post_actions/UpdatePost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -546,60 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/GetUserTodos.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/CreateTodo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/ModifyTodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/UpdateTodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/TestConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="18">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -609,24 +595,87 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/DeleteTodo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/model/TodoE2e.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/GetUserTodos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/ModifyTodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/api_methods/ApiMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_actions/UpdateTodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/assertions/TodoAssertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/clients/TodoClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="933">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rest/todo_e2e/TodoE2eTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="412">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

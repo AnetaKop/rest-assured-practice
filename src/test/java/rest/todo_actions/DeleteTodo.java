@@ -13,7 +13,7 @@ public class DeleteTodo extends TestConfiguration {
 
         Map response =
                 when()
-                        .delete("todos/1")
+                        .delete("/todos/1")
                 .then().log().all()
                         .statusCode(SC_OK)
                 .and()

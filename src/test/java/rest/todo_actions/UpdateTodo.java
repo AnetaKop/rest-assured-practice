@@ -18,7 +18,7 @@ public class UpdateTodo extends TestConfiguration {
                         .contentType(ContentType.JSON)
                         .body(new Todo(1, "go on vacation", true, 1))
                 .when()
-                        .put("todos/1")
+                        .put("/todos/1")
                 .then()
                         .statusCode(SC_OK)
                 .and()

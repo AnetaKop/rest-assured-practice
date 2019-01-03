@@ -11,7 +11,9 @@ public class TodoAssertions {
         Map<String, Object> response = createTodo(title, completedStatus, userId);
 
         String responseTodoTile = (String) response.get("title");
+
         Boolean responseCompletedStatus = (boolean) response.get("completed");
+
         Integer responseUserId = (int) response.get("userId");
 
 
