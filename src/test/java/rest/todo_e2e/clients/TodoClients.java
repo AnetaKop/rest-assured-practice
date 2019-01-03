@@ -12,7 +12,7 @@ public class TodoClients {
     public static ArrayList getUserTodos(){
         return
         when()
-                .get("/todos?userId=1")
+                .get("/todos?userId=" + USER_ID)
         .then()
                 .extract().path("userId");
 
@@ -35,7 +35,7 @@ public class TodoClients {
                 .contentType(ContentType.JSON)
                 .body(new Todo(id, title, completedStatus, userId))
         .when()
-                .put("/todos/"+ USER_ID)
+                .put("/todos/" + USER_ID)
         .then()
                 .extract().path("");
     }
