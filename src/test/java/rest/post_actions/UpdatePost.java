@@ -1,8 +1,10 @@
 package rest.post_actions;
+
 import io.restassured.http.ContentType;
 import org.junit.Test;
 import rest.TestConfiguration;
 import rest.post_actions.model.Post;
+
 import static io.restassured.RestAssured.given;
 import static junit.framework.TestCase.assertEquals;
 import static org.apache.http.HttpStatus.SC_OK;

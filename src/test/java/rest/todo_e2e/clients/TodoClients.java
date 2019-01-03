@@ -1,18 +1,19 @@
 package rest.todo_e2e.clients;
+
 import io.restassured.http.ContentType;
 import rest.todo_actions.model.Todo;
+
 import static io.restassured.RestAssured.*;
+
 import java.util.ArrayList;
 import java.util.Map;
 
 public class TodoClients {
 
-    private static final int USER_ID = 1;
-
     public static ArrayList getUserTodos(){
         return
         when()
-                .get("/todos?userId=" + USER_ID)
+                .get("/todos?userId=1")
         .then()
                 .extract().path("userId");
 
@@ -35,7 +36,7 @@ public class TodoClients {
                 .contentType(ContentType.JSON)
                 .body(new Todo(id, title, completedStatus, userId))
         .when()
-                .put("/todos/" + USER_ID)
+                .put("/todos/1" )
         .then()
                 .extract().path("");
     }
@@ -46,7 +47,7 @@ public class TodoClients {
                 .contentType(ContentType.JSON)
                 .body(new Todo(title))
         .when()
-                .patch("/todos/" + USER_ID)
+                .patch("/todos/1")
         .then()
                 .extract().path("");
     }
@@ -54,7 +55,7 @@ public class TodoClients {
     public static Map deleteTodo(){
         return
         when()
-                .delete("/todos/" + USER_ID)
+                .delete("/todos/")
         .then()
                 .extract().path("");
 
